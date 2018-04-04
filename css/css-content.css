@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Merienda+One|Patrick+Hand|Permanent+Marker|Roboto+Slab|Rock+Salt|Tangerine');
+/*
+font-family: 'Roboto Slab', serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Tangerine', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Bad Script', cursive;
+font-family: 'Merienda One', cursive;
+
+*/
+.button2 {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+body, html {
+	margin:0;
+	padding:0;
+    height: 100%;
+	background-color:black;
+	/*background:#222;*/
+}
+
+	
+.parallax {
+   
+	
+    /* Full height */
+    height: 100%; 
+	
+	transition:all ease-out .5s 0s;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.faceparallax {
+   
+	
+    /* Full height */
+    height: 100%; 
+	
+	transition:all ease-out .5s 0s;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+h1.social{
+text-align:center;
+font-family: "Helvetica Nueue",Arial,Verdana,sans-serif;
+font-size:2em;
+}
+p.social{
+font-size:1em;
+font-family: 'Tangerine', cursive;
+
+}
+.container {
+	/*position:bottom;*/
+  color: white;
+  text-align: center;
+}
+
+
+li.clock{
+  display: inline-block;
+  font-size: 0.5em;
+  list-style-type: none;
+  padding: 0.8em;
+  text-transform: uppercase;
+}
+
+li.clock span {
+  display: block;
+  font-size: 2.5rem;
+}
+
+
+
+
+.logo{
+	position:fixed;
+	float:left;
+	margin:16px 36px;
+	color:#fff;
+	font-weight:bold;
+	font-size:24px;
+}
+nav{
+	position:fixed;
+	width:100%;
+z-index:1;
+}
+nav ul{
+	list-style:none;
+	background:rgba(0,0,0,0);
+	overflow:hidden;
+	color:#fff;
+	padding:0;
+	text-align:center;
+	margin:0;
+	transition: 2s;
+	
+}
+.menu a {
+  text-decoration: none;
+  /*font-family: 'Roboto Slab', serif;*/
+font-family: 'Patrick Hand', cursive;
+  font-weight:bold;
+}
+.menu a:hover {
+  
+  color: #93DA8C;
+  font-size:	20px;
+}
+.menu a .Ca:hover{
+
+color:yellow;
+
+}
+
+
+nav.red ul{
+	
+	background:#ff5733;
+}
+nav ul li{
+	display:inline-block;
+	padding:20px;
+	
+}
+nav ul li a {
+	text-decoration:none;
+	color:#fff;
+	font-size:20px;	
+}
+.menu-icon{
+	width:100%;
+	background:#000;
+	text-align:right;
+	box-sizing:border-box;
+	padding:15px 24px;
+	cursor:pointer;
+	color:#fff;
+	display:none;
+	
+}
+
+@media(max-width:580px){
+	.logo{
+		position:fixed;
+		top:0;
+		margin-top:16px;
+	}
+	nav ul{
+		max-height:0px;
+		background:#000;
+	}
+	nav.red ul{
+		background:#ff5733;
+	}
+	.showing{
+		max-height:35em;
+	}
+	nav ul li{
+		box-sizing:border-box;
+		width:100%;
+		padding:18px 0;
+		text-align:center;
+		text-decoration:none;
+	}
+	.menu-icon{
+		display:block;
+	}
+}
+
+
+
+.butt{
+	text-align:center;
+  margin: 0 auto;
+  font-size: 1.0rem;
+  padding: 2.25rem 2.5rem;
+  display: block;
+  background-color: #009ac9;
+  border: 1px solid transparent;
+  color: #ffffff;
+  font-weight: 300;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.butt:hover {
+  background-color: transparent;
+  color: #ff5733;
+  border-color: #ff5733;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.content{
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h1{
+   text-align: center; 
+}
+p{
+	font-weight:lighter;
+	font-size:20px;
+}
+h3{
+	color:#f345d5;
+}
+.footer{
+	padding-top:300px;
+	text-align:center;
+}
